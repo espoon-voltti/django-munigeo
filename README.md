@@ -1,9 +1,12 @@
-[![Build status](https://travis-ci.org/City-of-Helsinki/django-munigeo.svg?branch=master)](https://travis-ci.org/City-of-Helsinki/django-munigeo)
-[![codecov](https://codecov.io/gh/City-of-Helsinki/django-munigeo/branch/master/graph/badge.svg)](https://codecov.io/gh/City-of-Helsinki/django-munigeo)
-[![Requirements](https://requires.io/github/City-of-Helsinki/django-munigeo/requirements.svg?branch=master)](https://requires.io/github/City-of-Helsinki/django-munigeo/requirements/?branch=master)
+# django-munigeo (Voltti fork)
 
-munigeo
-=======
+This is the Espoon Voltti fork of [django-munigeo](https://github.com/City-of-Helsinki/django-munigeo), based on the 0.2.x line.
+
+The upstream 0.3.x line diverged early from 0.2.x with no upgrade path, so this fork maintains compatibility with modern Django (5.x), Python (3.14+), and other ecosystem packages while staying on the 0.2.x API.
+
+**Primary branch:** `voltti`
+
+---
 
 `munigeo` is a reusable Django application for storing and accessing
 municipality-related geospatial data. It can manage following categories of
